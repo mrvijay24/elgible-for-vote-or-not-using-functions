@@ -1,0 +1,8 @@
+def vote(age):
+    if age >18:
+        print('elgible for vote: yes')
+    else :
+        print('elgible for vote:no')
+print('enter the age:')
+age=int(input())
+vote(age)
